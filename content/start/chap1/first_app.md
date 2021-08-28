@@ -1,34 +1,35 @@
 ---
-title: Getting Started - Chapter 1 - Setup Your First Web App
+title: 시작하기 - 챕터 1 - 첫 웹앱 세팅
 image: 
-description: HTML Templates to load your first model or code into a Babylon.js scene.
-keywords: getting started, start, chapter 1, first model, import
+description: 첫 모델을 로드하거나 Babylon.js 씬에 코드로 모델을 만들어 넣기 위한 HTML 템플릿
+keywords: 시작하기, 시작, 챕터 1, 첫 모델, 불러오기
 further-reading: 
-  - title: Setup with NPM
+  - title: npm 으로 셋업하기
     url: /divingDeeper/developWithBjs/npmSupport
-  - title: Setup with Tree Shaking
+  - title: 트리쉐이킹으로 셋업하기
     url: /divingDeeper/developWithBjs/treeShaking
 video-overview:
 video-content:
 ---
 
-# A Web Application Template
+# 웹앱 템플릿
 
-You will have seen that the template needed for any code on the playground is
+Playground 에서 코딩을 하기 위해서 필요한 템플릿을 보셨을겁니다.
+
 ```javascript
 var createScene = function() {
     var scene = new BABYLON.Scene(engine);
 
-    // Add a camera to the scene and attach it to the canvas
-    // Add a lights to the scene
+    // 씬에 카메라를 생성하고 이를 캔버스에 연결시켜
+    // 씬에 조명을 추가해주세요
 
-    //Your Code
+    //코드
 
   return scene;
 };
 ```
 
-By following this format in you own project you can quickly drop it into your own HTML page using the following as a template.
+이 구성대로 당신의 프로젝트의 HTML 페이지에 아래와 같은 템플릿을 넣어 적용시킬 수 있습니다.
 
 ```html
 <!DOCTYPE html>
@@ -64,19 +65,18 @@ By following this format in you own project you can quickly drop it into your ow
 	<canvas id="renderCanvas" touch-action="none"></canvas> <!-- touch-action="none" for best results from PEP -->
 
 	<script>
-        const canvas = document.getElementById("renderCanvas"); // Get the canvas element
-        const engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+        const canvas = document.getElementById("renderCanvas"); // 캔버스 엘레먼트
+        const engine = new BABYLON.Engine(canvas, true); // Babylon 3D 엔진 생성
 
-        // Add your code here matching the playground format
+        // 여기에 Playground 포맷에 맞게 당신의 코드를 추가해주세요
+        const scene = createScene(); // createScene 함수 호출
 
-        const scene = createScene(); //Call the createScene function
-
-        // Register a render loop to repeatedly render the scene
+        // 씬을 반복적으로 렌더하기 위해 렌더 루프를 등록해주세요
         engine.runRenderLoop(function () {
                 scene.render();
         });
 
-        // Watch for browser/canvas resize events
+        // 브라우저/캔버스 리사이즈 이벤트
         window.addEventListener("resize", function () {
                 engine.resize();
         });
@@ -87,26 +87,26 @@ By following this format in you own project you can quickly drop it into your ow
 </html>
 ```
 
-This line
+이 라인은
 ```javascript
 <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
 ```
-allows you to import models into your scene.
+씬에 모델을 불러올 수 있도록 해줍니다.
 
-This line
+이 라인은
 ```javascript
 <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
 ```
-allows you to use a touch screen.
+터치 스크린을 사용 할 수 있도로고 해줍니다.
 
-## Examples
+## 예시들
 
-### Import a Model Setup 
-The following loads a box model into an app.
+### 모델 셋업 불러오기
+아래는 앱에 박스 모델을 로드해줍니다.
 
 [First App](/webpages/app1.html)
 
-Example setup for a loaded model
+불러온 모델에 대한 예시 셋업
 ```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -141,10 +141,10 @@ Example setup for a loaded model
 	<canvas id="renderCanvas" touch-action="none"></canvas> <!-- touch-action="none" for best results from PEP -->
 
 	<script>
-        const canvas = document.getElementById("renderCanvas"); // Get the canvas element
-        const engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+        const canvas = document.getElementById("renderCanvas"); // 캔버스 엘레먼트
+        const engine = new BABYLON.Engine(canvas, true); // Babylon 3D 엔진 생성
 
-        // Add your code here matching the playground format
+        // 여기에 Playground 포맷에 맞게 당신의 코드를 추가해주세요
         const createScene = function () {
     
             const scene = new BABYLON.Scene(engine);  
@@ -158,14 +158,14 @@ Example setup for a loaded model
             return scene;
         };
 
-        const scene = createScene(); //Call the createScene function
+        const scene = createScene(); // createScene 함수 호출
 
-        // Register a render loop to repeatedly render the scene
+        // 씬을 반복적으로 렌더하기 위해 렌더 루프를 등록해주세요
         engine.runRenderLoop(function () {
                 scene.render();
         });
 
-        // Watch for browser/canvas resize events
+        // 브라우저/캔버스 리사이즈 이벤트
         window.addEventListener("resize", function () {
                 engine.resize();
         });
@@ -176,12 +176,13 @@ Example setup for a loaded model
 </html>
 ```
 
-### Code a Model Setup
-The following creates a box model in an app.
+### 코드로 모델 세팅하기
+
+아래는 앱에 박스 모델을 생성합니다.
 
 [First Coded App](/webpages/app2.html)
 
-Example setup for a coded model
+모델 셋업 예시
 
 ```html
 <!DOCTYPE html>
@@ -217,10 +218,10 @@ Example setup for a coded model
 	<canvas id="renderCanvas" touch-action="none"></canvas> <!-- touch-action="none" for best results from PEP -->
 
 	<script>
-        const canvas = document.getElementById("renderCanvas"); // Get the canvas element
-        const engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+        const canvas = document.getElementById("renderCanvas"); // 캔버스 엘레먼트
+        const engine = new BABYLON.Engine(canvas, true); // Babylon 3D 엔진 생성
 
-        // Add your code here matching the playground format
+        // 여기에 Playground 포맷에 맞게 당신의 코드를 추가해주세요
         const createScene = function () {
     
             const scene = new BABYLON.Scene(engine);  
@@ -234,14 +235,14 @@ Example setup for a coded model
             return scene;
         };
 
-        const scene = createScene(); //Call the createScene function
+        const scene = createScene(); // createScene 함수 호출
 
-        // Register a render loop to repeatedly render the scene
+        // 씬을 반복적으로 렌더하기 위해 렌더 루프를 등록해주세요
         engine.runRenderLoop(function () {
                 scene.render();
         });
 
-        // Watch for browser/canvas resize events
+        // 브라우저/캔버스 리사이즈 이벤트
         window.addEventListener("resize", function () {
                 engine.resize();
         });
@@ -252,4 +253,4 @@ Example setup for a coded model
 </html>
 ```
 
-Let's move on to learning more about using Babylon.js code and build more interesting models. We start with giving our world a ground to build on.
+더 많은 Babylon.js 사용법을 알아보고 더 흥미로운 모델들을 빌드하는 법을 배우러 가봅시다. 세계에 빌드를 할 수 있는 땅을 만드는 것부터 시작해보겠습니다.
