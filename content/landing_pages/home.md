@@ -1,22 +1,22 @@
 ---
-title: Babylon.js Documentation
+title: Babylon.js 문서
 image:
-description: Welcome to the Babylon.js Documentation.
-keywords: welcome, babylon.js
+description: Babylon.js 문서에 오신것을 환영합니다.
+keywords: 환영합니다, babylon.js
 further-reading:
 video-overview:
 video-content:
 ---
 
-## Welcome To The Babylon.js Documentation
+## Babylon.js 문서에 오신것을 환영합니다
 
-Hello and welcome to the Babylon.js Documentation. In these pages you will find everything you could ever want to know about this powerful, beautiful, simple, and completely open-source web rendering engine. Whether you are just starting your Babylon.js journey, or you are a seasoned veteran, it is our sincere hope that the information contained here will help you bring your ideas to life.
+안녕하세요, Babylon.js 문서에 오신것을 환영합니다. In these pages you will find everything you could ever want to know about this powerful, beautiful, simple, and completely open-source web rendering engine. Whether you are just starting your Babylon.js journey, or you are a seasoned veteran, it is our sincere hope that the information contained here will help you bring your ideas to life.
 
-## How It's Organized
+## 구조가 어떻게 되어있나요
 
 This documentation is designed to take you on a step by step journey of mastering all that this platform has to offer. The information is organized into 7 main sections, each one expanding on the knowledge from the previous.
 
-1. [Getting Started](/start) - This section is designed to take you on a step by step journey of scratching the surface of Babylon.js and everything it has to offer.
+1. [시작하기](/start) - This section is designed to take you on a step by step journey of scratching the surface of Babylon.js and everything it has to offer.
 2. [Diving Deeper](/divingDeeper) - Organized by feature, this section will help you take the next step, expand on your knowledge of the platform, and give you a solid understanding of the depth of possibilties in the engine.
 3. [Advanced Topics](/advanced_topics) - This section will transform you into a Babylon.js expert. Tackling the most dense and advanced topics, this section is not for the faint of heart.
 4. [Tools And Resources](/toolsAndResources) - Babylon.js features many incredible tools to make the development process simple and enjoyable. It also has several libraries of content available for you to use completely for free. This section will help you understand and leverage both.
@@ -24,7 +24,7 @@ This documentation is designed to take you on a step by step journey of masterin
 6. [Extensions](/extensions) - Bayblon.js is completely free and open source and has one of the world's most amazing development communities behind it, pushing it to be the best that it can be. This section contains information about some of the incredible technology built by the community to that will extend your Babylon.js development even further.
 7. [API](/typedoc) - For the most seasoned Babylon.js developers, those who want to understand every single possible super power available, the API meticulously documents every corner of this fantastic platform.
 
-## How To Use The Documentation
+## 문서 사용법
 
 The documentation page layout has several features that you'll want to know about in order to get the most out of your learning journey.
 
