@@ -1,18 +1,21 @@
 ---
 title: Getting Started - Chapter 1 - Working with Models
+title: 시작하기 - 챕터 1 - 모델과 작업하기
 image:
-description: Learn to load your first model into a Babylon.js scene.
-keywords: getting started, start, chapter 1, first model, import
+description: 첫 모델을 Babylon.js 씬에 로드하는 법을 배웁니다.
+keywords: 시작하기, 시작, 챕터 1, 첫 모델, 불러오기
 further-reading:
 video-overview:
 video-content:
 ---
 
-# Getting Started - Working with Models
+<!-- # Getting Started - Working with Models -->
+# 시작하기 - 
 
 The playgrounds on this page contain, for example, houses which are be positioned and rotated. Once we have introduced you to the basics of importing and putting your project on a web page we will give you details on how to do this with Babylon.js code.
 
-## Importing a Scene or Model
+<!-- ## Importing a Scene or Model -->
+## 씬 또는 모델 불러오기
 
 When you put a model into a scene you are, in fact, loading it into a browser. As you will already know when you load anything into a website it is asynchronous. Before you can do anything with your models you need to know they have loaded. You can do this using the _ImportMeshAsync_ method of the _SceneLoader_, which has the form
 
@@ -28,7 +31,8 @@ BABYLON.SceneLoader.ImportMeshAsync("model1", "/relative path/", "myFile"); //Na
 BABYLON.SceneLoader.ImportMeshAsync(["model1", "model2"], "/relative path/", "myFile"); //Array of model names
 ```
 
-All of the above will only load the models and you will not be able to manipulate them in any way. You have set up a Promise object but not given any way to act after the Promise is fulfilled and it provides a result. Examples of this are in the following two playground which **only** import the named models.
+<!-- All of the above will only load the models and you will not be able to manipulate them in any way. You have set up a Promise object but not given any way to act after the Promise is fulfilled and it provides a result. Examples of this are in the following two playground which **only** import the named models.  -->
+위의 코드는 그저 모델을 로드 할 뿐이며 어떠한 방법으로도 모델들을 조작 할 수는 없습니다. You have set up a Promise object but not given any way to act after the Promise is fulfilled and it provides a result. 이름이 있는 모델들만을 불러오는 이에 대한 예시들이 아래에 있습니다.
 
 <Playground id="#YNEAUL#11" title="Loading Your First Model" description="Load a model into a scene." image="/img/playgroundsAndNMEs/gettingStartedFirstModel.jpg"/>
 
@@ -44,7 +48,8 @@ BABYLON.SceneLoader.ImportMeshAsync("", "/relative path/", "myFile").then((resul
 });
 ```
 
-This playground imports all the models and their positions are changed.
+<!-- This playground imports all the models and their positions are changed. -->
+아래의 Playground 는 모든 모델들을 불러오고 이들의 위치들은 수정되었습니다.
 
 <Playground id="#YNEAUL#13" title="Modifying Models After Load" description="Load a model into a scene and modify their position after loading completes." image="/img/playgroundsAndNMEs/gettingStartedFirstModelLoadSuccess.jpg"/>
 

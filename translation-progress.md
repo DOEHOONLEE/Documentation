@@ -13,7 +13,7 @@ contents
 ├── How_To
 │   ├── 
 │   └── 
-├── landing_pages - home.md [10%]
+├── landing_pages - home.md [20%]
 │   ├── 
 │   └── 
 ├── resources
