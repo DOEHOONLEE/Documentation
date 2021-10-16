@@ -18,12 +18,25 @@ video-content:
 
 <!-- This documentation is designed to take you on a step by step journey of mastering all that this platform has to offer. The information is organized into 7 main sections, each one expanding on the knowledge from the previous. -->
 
+<!-- 1. [시작하기](/start) - This section is designed to take you on a step by step journey of scratching the surface of Babylon.js and everything it has to offer. -->
 1. [시작하기](/start) - This section is designed to take you on a step by step journey of scratching the surface of Babylon.js and everything it has to offer.
-2. [Diving Deeper](/divingDeeper) - Organized by feature, this section will help you take the next step, expand on your knowledge of the platform, and give you a solid understanding of the depth of possibilties in the engine.
-3. [Advanced Topics](/advanced_topics) - This section will transform you into a Babylon.js expert. Tackling the most dense and advanced topics, this section is not for the faint of heart.
-4. [Tools And Resources](/toolsAndResources) - Babylon.js features many incredible tools to make the development process simple and enjoyable. It also has several libraries of content available for you to use completely for free. This section will help you understand and leverage both.
+
+<!-- 2. [Diving Deeper](/divingDeeper) - Organized by feature, this section will help you take the next step, expand on your knowledge of the platform, and give you a solid understanding of the depth of possibilties in the engine. -->
+2. [깊이 들어가기](/divingDeeper) - Organized by feature, this section will help you take the next step, expand on your knowledge of the platform, and give you a solid understanding of the depth of possibilties in the engine.
+
+<!-- 3. [Advanced Topics](/advanced_topics) - This section will transform you into a Babylon.js expert. Tackling the most dense and advanced topics, this section is not for the faint of heart. -->
+3. [심화 주제](/advanced_topics) - This section will transform you into a Babylon.js expert. Tackling the most dense and advanced topics, this section is not for the faint of heart.
+
+<!-- 4. [Tools And Resources](/toolsAndResources) - Babylon.js features many incredible tools to make the development process simple and enjoyable. It also has several libraries of content available for you to use completely for free. This section will help you understand and leverage both. -->
+4. [툴과 리소스](/toolsAndResources) - Babylon.js features many incredible tools to make the development process simple and enjoyable. It also has several libraries of content available for you to use completely for free. This section will help you understand and leverage both.
+
+<!-- 5. [Guided Learning](/guidedLearning) - Sometimes it's best to learn while doing. This section helps you do just that. These step by step articles and tutorials will help you learn from some of the communities best and brightest teachers. -->
 5. [Guided Learning](/guidedLearning) - Sometimes it's best to learn while doing. This section helps you do just that. These step by step articles and tutorials will help you learn from some of the communities best and brightest teachers.
-6. [Extensions](/extensions) - Bayblon.js is completely free and open source and has one of the world's most amazing development communities behind it, pushing it to be the best that it can be. This section contains information about some of the incredible technology built by the community to that will extend your Babylon.js development even further.
+
+<!-- 6. [Extensions](/extensions) - Bayblon.js is completely free and open source and has one of the world's most amazing development communities behind it, pushing it to be the best that it can be. This section contains information about some of the incredible technology built by the community to that will extend your Babylon.js development even further. -->
+6. [확장 기능](/extensions) - Bayblon.js is completely free and open source and has one of the world's most amazing development communities behind it, pushing it to be the best that it can be. This section contains information about some of the incredible technology built by the community to that will extend your Babylon.js development even further.
+
+<!-- 7. [API](/typedoc) - For the most seasoned Babylon.js developers, those who want to understand every single possible super power available, the API meticulously documents every corner of this fantastic platform. -->
 7. [API](/typedoc) - For the most seasoned Babylon.js developers, those who want to understand every single possible super power available, the API meticulously documents every corner of this fantastic platform.
 
 ## 문서 사용법

@@ -12,7 +12,8 @@ video-content:
 <!-- # Getting Started - Working with Models -->
 # 시작하기 - 
 
-The playgrounds on this page contain, for example, houses which are be positioned and rotated. Once we have introduced you to the basics of importing and putting your project on a web page we will give you details on how to do this with Babylon.js code.
+<!-- The playgrounds on this page contain, for example, houses which are be positioned and rotated. Once we have introduced you to the basics of importing and putting your project on a web page we will give you details on how to do this with Babylon.js code. -->
+해당 페이지의 플레이그라운드는 예를 들어 
 
 <!-- ## Importing a Scene or Model -->
 ## 씬 또는 모델 불러오기
