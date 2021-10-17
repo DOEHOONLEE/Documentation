@@ -37,7 +37,7 @@ contents
 │   │     ├── face_material.md
 │   │     ├── ground.md [90%]
 │   │     ├── material.md [50%]
-│   │     ├── placement.md
+│   │     ├── placement.md []
 │   │     ├── sound.md
 │   │     ├── variation.md
 │   │     └── viewer2.md
