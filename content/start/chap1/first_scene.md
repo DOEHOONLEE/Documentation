@@ -26,7 +26,7 @@ Wireframe View Showing Mesh Triangles -->
 
 
 <!-- Examples on these pages can be viewed in the playground, the place to try out Babylon.js live on the web, by clicking on their titles. To edit the code open them with ![open pg](/img/getstarted/openpg.png) -->
-해당 페이지들의 예제들은 타이틀을 클릭하여 바빌론.js 를 라이브로 테스트 할 수 있는 플레이그라운드에서 볼 수 있습니다. 코드를 수정하시려면 ![플레이그라운드 열기](/img/getstarted/openpg.png)를 열어주세요.
+해당 페이지들의 예제들은 타이틀을 클릭하여 Babylon.js 를 라이브로 테스트 할 수 있는 플레이그라운드에서 볼 수 있습니다. 코드를 수정하시려면 ![플레이그라운드 열기](/img/getstarted/openpg.png)를 열어주세요.
 
 <!-- ## Say Hello to Your First World -->
 당신의 첫번째 세계에 인사하세요
@@ -46,8 +46,10 @@ const box = BABYLON.MeshBuilder.CreateBox("box", {}, scene);
 ```
 
 <!-- Like most meshes created with MeshBuilder the box is created positioned with its center at the origin and needs three parameters. These are a name, *a string*,  options, *a JavaScript object*, and a scene. By leaving the options as an empty object *{}* with no properties the box defaults to one of unit size for its width, height and depth.  -->
+`MeshBuilder` 로 만들어진 다른 많은 메쉬들과 마찬가지로 상자 또한 원점에 위치하도록 생성되며 세 개의 파라미터가 요구됩니다. name, *문자열*, options, *자바스크립트 객체*, 그리고 씬이 그것들입니다. options 를 빈 객체형태 *{}* 로 아무 프로퍼티가 없는 채로 두면 상자는 디폴트 단위의 가로, 세로, 높이값으로 생성됩니다.
 
 <!-- To be usable in a playground we need to place these within a function called **createScene** which has to return a scene. The playground app takes care of the rest. -->
+Playground 내에서 사용 가능하도록 만들기 위해서는 씬을 반환해주는 **`createScene`** 함수로 호출되어야 합니다. 나머지는 Playground 가 해결해줄 것입니다.
 
 ```javascript
 const createScene =  () => {
@@ -66,15 +68,19 @@ const createScene =  () => {
 
 Since at this point there is only one scene you may notice that this parameter can be dropped from the camera, light and box as the default is for them to be placed in the current scene.
 
-<Playground id="#KBS9I5" title="Getting Started First Scene Playground" description="Getting Started First Scene Playground." image="/img/playgroundsAndNMEs/gettingStartedFirstScene.jpg"/>
+
+<Playground id="#KBS9I5" title="시작하기 첫번째 씬 Playground" description="시작하기 첫번째 씬 Playground" image="/img/playgroundsAndNMEs/gettingStartedFirstScene.jpg"/>
 
 ![box](/img/getstarted/house0.png)
 
-Having created our box we can save, or export, the scene from within the playground by selecting the *Inspector*  
+<!-- Having created our box we can save, or export, the scene from within the playground by selecting the *Inspector*   -->
+상자를 생성하고나서 Playground 에서 우리는 *Tools* 에 뒤이어 나오는 *Inspector* 를 선택하여 씬을 저장하거나, 내보내기를 할 수 있고.
+
 ![inspector](/img/getstarted/pgpartmenu.png)    
 
-followed by *Tools* and choose which type to export, the *.babylon* format or the *GLB* format.  
+<!-- followed by *Tools* and choose which type to export, the *.babylon* format or the *GLB* format.   -->
+*.babylon* 포맷 또는 *GLB* 포맷과 같이 어떤 형식으로 추출할지, 선택할 수 있습니다.
+
 ![Tools](/img/getstarted/export.png)
 
-Now we have a file we can use it to demonstrate how to view it in a web page.
-
+<!-- Now we have a file we can use it to demonstrate how to view it in a web page. -->

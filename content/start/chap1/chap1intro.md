@@ -1,8 +1,7 @@
 ---
 title: 시작하기 - 챕터 1 - 처음
 image: 
-description: Start your Babylon.js learning with Chapter 1. Here you will begin a journey of learning to build a simple world step by step.
-description: 챕터 1과 함께 Babylon.js 공부를 시작하세요. 여정.
+description: 챕터 1과 함께 Babylon.js 공부를 시작하세요. 이곳에서 간단한 세상을 단계별로 만들며 배움의 여정을 시작합니다.
 keywords: 시작하기, 시작, 챕터 1
 further-reading:
 video-overview:

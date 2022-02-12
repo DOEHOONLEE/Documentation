@@ -13,7 +13,7 @@ contents
 ├── How_To
 │   ├── 
 │   └── 
-├── landing_pages - home.md [20%]
+├── landing_pages - home.md [70%]
 │   ├── 
 │   └── 
 ├── resources
@@ -26,9 +26,9 @@ contents
 │   ├── chap1
 │   │     ├── chap1intro.md [90%]
 │   │     ├── first_app.md [90%]
-│   │     ├── first_import.md [10%]
-│   │     ├── first_scene.md [10%]
-│   │     └── first_viewer.md
+│   │     ├── first_import.md [90%]
+│   │     ├── first_scene.md [90%]
+│   │     └── first_viewer.md [90%]
 │   ├── chap2
 │   │     ├── app2.md
 │   │     ├── chap2intro.md [30%]

@@ -1,5 +1,5 @@
 ---
-title: Getting Started - Chapter 2 - Web App Layout
+title: 시작하기 - 챕터 2 - 웹앱 레이아웃
 image: 
 description: Continue your Babylon.js learning by transforming your progress into a web app.
 keywords: getting started, start, chapter 2, web app, app
