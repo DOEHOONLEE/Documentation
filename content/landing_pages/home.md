@@ -18,7 +18,7 @@ video-content:
 ## 웹사이트의 구조가 어떻게 되어있나요
 
 <!-- This documentation is designed to take you on a step by step journey of mastering all that this platform has to offer. The information is organized into 7 main sections, each one expanding on the knowledge from the previous. -->
-이 문서는 당신이 해당 플랫폼에서 제공하는 것들을 마스터해 나가는 단계적 여정에 오를 수 있도록 설계되어 있습니다. 7개의 메인 섹션으로 구성되어있으며 각각의 단계는 이전 섹션의 지식의 연장선(확장)입니다.
+이 문서는 당신이 해당 플랫폼에서 제공하는 것들을 마스터해 나가는 단계적 여정에 오를 수 있도록 설계되어 있습니다. 7개의 메인 섹션으로 구성되어있으며 각각의 단계는 이전 섹션 지식의 연장선입니다.
 
 
 <!-- 1. [시작하기](/start) - This section is designed to take you on a step by step journey of scratching the surface of Babylon.js and everything it has to offer. -->
@@ -37,16 +37,20 @@ video-content:
 5. [Guided Learning](/guidedLearning) - 가끔은 직접 해보며 배워가는게 최선입니다. 이 섹션은 그렇게 도와주기 위한 곳입니다. 단계별 항목들과 튜토리얼들은 커뮤니티의 가장 영리하고 뛰어난 스승으로부터 배우도록 도와줍니다.
 
 <!-- 6. [Extensions](/extensions) - Bayblon.js is completely free and open source and has one of the world's most amazing development communities behind it, pushing it to be the best that it can be. This section contains information about some of the incredible technology built by the community to that will extend your Babylon.js development even further. -->
-6. [확장 기능](/extensions) - Bayblon.js is completely free and open source and has one of the world's most amazing development communities behind it, pushing it to be the best that it can be. This section contains information about some of the incredible technology built by the community to that will extend your Babylon.js development even further.
+<!-- behind, pushing it 표현 다른 것 있을텐데 재검토 -->
+6. [확장 기능](/extensions) - Bayblon.js 는 온전히 무료이자 오픈소스이며 세계에서 가장 굉장한 커뮤니티로 뒷받침 되어 있고, 최고가 되기위해 나아가고 있습니다. 해당 섹션은 Babylon.js 개발을 더욱 진보시켜줄 커뮤니티에 의해 개발된 기술들의 정보를 제공합니다.
 
 <!-- 7. [API](/typedoc) - For the most seasoned Babylon.js developers, those who want to understand every single possible super power available, the API meticulously documents every corner of this fantastic platform. -->
-7. [API](/typedoc) - 
+<!-- 재검토 필요 -->
+7. [API](/typedoc) - 가능한 모든 특별한 능력들을 알고싶어하는 경험 많은 Babylon.js 개발자들을 위해 이 엄청난 플랫폼의 구석구석 세세한 모든 것들을 문서화 시켜둔 API 입니다.
 
 ## 문서 사용법
 
 <!-- The documentation page layout has several features that you'll want to know about in order to get the most out of your learning journey. -->
+배움의 여정에서 최대한을 끌어내기 위해 공식문서 페이지 레이아웃은 여러 특징들로 나누어져 있습니다.
 
 <!-- To start, the left most panel is the navigation pane. This pane is how you navigate to where you'd like to go. -->
+우선, 좌측 패널은 네비게이션 패널로 구성되어있습니다. 해당 패널로 이용해 가고싶은 곳으로 이동할수 있습니다.
 
 <!-- ![Navigation Pane](/img/home/home1.jpg) -->
 ![네비게이션 패널](/img/home/home1.jpg)

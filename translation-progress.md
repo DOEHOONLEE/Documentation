@@ -13,7 +13,7 @@ contents
 ├── How_To
 │   ├── 
 │   └── 
-├── landing_pages - home.md [70%]
+├── landing_pages - home.md [90%] - requires revision
 │   ├── 
 │   └── 
 ├── resources
@@ -30,8 +30,8 @@ contents
 │   │     ├── first_scene.md [90%]
 │   │     └── first_viewer.md [90%]
 │   ├── chap2
-│   │     ├── app2.md
-│   │     ├── chap2intro.md [30%]
+│   │     ├── app2.md [90%] - requires revision
+│   │     ├── chap2intro.md [80%]
 │   │     ├── combine.md
 │   │     ├── copies.md
 │   │     ├── face_material.md
