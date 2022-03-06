@@ -3,6 +3,9 @@
 #### 번역 진행 상황
 
 ```bash
+configuration
+└── structure.json - in progress
+
 contents
 ├── controls
 │   ├── 
