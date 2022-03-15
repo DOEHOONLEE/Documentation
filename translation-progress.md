@@ -3,6 +3,9 @@
 #### 번역 진행 상황
 
 ```bash
+
+README.md - [90%] - requires revision
+
 configuration
 └── structure.json - in progress
 
