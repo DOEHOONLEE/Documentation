@@ -9,7 +9,7 @@ README.md - [90%] - requires revision
 configuration
 └── structure.json - in progress
 
-contents
+content
 ├── controls
 │   ├── 
 │   └── 
@@ -17,8 +17,8 @@ contents
 │   ├── 
 │   └── 
 ├── How_To
-│   ├── 
-│   └── 
+│   └── material
+│          └── materials_introduction.md [90%]
 ├── landing_pages - home.md [90%] - requires revision
 │   ├── 
 │   └── 
@@ -42,7 +42,7 @@ contents
 │   │     ├── copies.md
 │   │     ├── face_material.md
 │   │     ├── ground.md [90%]
-│   │     ├── material.md [50%]
+│   │     ├── material.md [90%]
 │   │     ├── placement.md []
 │   │     ├── sound.md
 │   │     ├── variation.md
