@@ -1,8 +1,8 @@
 ---
-title: Getting Started - Chapter 2 - Mesh Placement
+title: 시작하기 - 챕터 2 - 메쉬 배치
 image: 
-description: Continue your Babylon.js learning by placing and positioning meshes in your scene.
-keywords: getting started, start, chapter 2, placement, position
+description: 씬 안에 메쉬를 배치하고 위치시키며 Babylon.js 배움의 여정을 이어나가세요.
+keywords: 시작하기, 시작, 챕터 2, 배치, 위치
 further-reading: 
     - title: More on Placement
       url: /divingDeeper/mesh/transforms/center_origin/position
@@ -10,9 +10,11 @@ video-overview:
 video-content:
 ---
 
-# Getting Started - Mesh Placement
+<!-- # Getting Started - Mesh Placement -->
+# 시작하기 - 메쉬 배치하기
 
-## Place and Scale a Mesh
+<!-- ## Place and Scale a Mesh -->
+## 메쉬 배치와 scaling
 
 ### Size
 Some meshes, such as box, have properties that you can set to change during their creation.

@@ -3,7 +3,13 @@
 #### 번역 진행 상황
 
 ```bash
-contents
+
+README.md - [90%] - requires revision
+
+configuration
+└── structure.json - in progress
+
+content
 ├── controls
 │   ├── 
 │   └── 
@@ -11,9 +17,9 @@ contents
 │   ├── 
 │   └── 
 ├── How_To
-│   ├── 
-│   └── 
-├── landing_pages - home.md [10%]
+│   └── material
+│          └── materials_introduction.md [90%]
+├── landing_pages - home.md [90%] - requires revision
 │   ├── 
 │   └── 
 ├── resources
@@ -26,10 +32,21 @@ contents
 │   ├── chap1
 │   │     ├── chap1intro.md [90%]
 │   │     ├── first_app.md [90%]
-│   │     ├── first_import.md
-│   │     ├── first_scene.md
-│   │     └── first_viewer.md
+│   │     ├── first_import.md [90%]
+│   │     ├── first_scene.md [90%]
+│   │     └── first_viewer.md [90%]
 │   ├── chap2
+│   │     ├── app2.md [90%] - requires revision
+│   │     ├── chap2intro.md [80%]
+│   │     ├── combine.md
+│   │     ├── copies.md
+│   │     ├── face_material.md
+│   │     ├── ground.md [90%]
+│   │     ├── material.md [90%]
+│   │     ├── placement.md []
+│   │     ├── sound.md
+│   │     ├── variation.md
+│   │     └── viewer2.md
 │   │
 │   └── chap3
 ├── whats-new
