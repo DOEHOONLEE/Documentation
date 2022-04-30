@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:12.22.7-alpine AS builder
 
 ENV TZ Asia/Seoul
 
