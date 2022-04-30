@@ -1,0 +1,25 @@
+509983665104.dkr.ecr.ap-northeast-2.amazonaws.com/babylonjs-documentation
+
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+    commands:
+      - aws --version
+      - $(aws ecr get-login --no-include-email --region ap-northeast-2)
+      - npm install yarn
+  build:
+    commands:
+      -docker build -t babylonjs-documentation .
+  post_build:
+    commands:
+      - docker tag babylonjs-documentation:latest 509983665104.dkr.ecr.ap-northeast-2.amazonaws.com/babylonjs-documentation:latest
+      - docker push 509983665104.dkr.ecr.ap-northeast-2.amazonaws.com/babylonjs-documentation:latest
+      - echo Writing Image Definition File..
+      - printf '[{"name": "babylonjs-documentation-container", "imageUri": "%s"}]'
+        509983665104.dkr.ecr.ap-northeast-2.amazonaws.com/babylonjs-documentation:latest > imagedefinitions.json
+  artifacts:
+    files: imagedefinitions.json
+       
