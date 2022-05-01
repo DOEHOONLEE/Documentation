@@ -26,10 +26,11 @@ export const generateTypeDoc = async () => {
         console.log("generating API docs, patience is required");
         // download the latest .d.ts
         const response = await fetch("https://preview.babylonjs.com/documentation.d.ts");
-        const text = await response.text();
+        let text = await response.text();
+        text = text.replace(`VRFrameData: any;`, `VRFrameData: { new (): VRFrameData; prototype: VRFrameData; };`).replace(`Document | XMLHttpRequestBodyInit`, `Document`);
         try {
             mkdirSync(basePathResolved, { recursive: true });
-        } catch (e) {}
+        } catch (e) { }
         writeFileSync(`${basePathResolved}${sep}doc.d.ts`, text);
 
         const app = new Application();

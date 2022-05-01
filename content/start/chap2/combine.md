@@ -2,7 +2,6 @@
 title: 시작하기 - 챕터 2 - 메쉬 합치기
 image: 
 description: Continue your Babylon.js learning by combining meshes in your scene.
-description: 씬 안의 메쉬들을 합쳐봅시다
 keywords: 시작하기, 시작, 챕터 2, 합치기, 메쉬 합치기, 머지
 further-reading:
     - title: 메쉬 합치기에 더 알아보기
