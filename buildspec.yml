@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  pre_bulid:
+    commands:
+      - echo Logging in to AWS ECR::::
+      - aws --version
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 509983665104.dkr.ecr.us-east-1.amazonaws.com
+      - npm install yarn
+  build:
+    commands:
+      -docker build -t babylonjs-documentation .
+  post_build:
+    commands:
+      - docker tag babylonjs-documentation:latest 509983665104.dkr.ecr.us-east-1.amazonaws.com/babylonjs-documentation:latest
+      - docker push 509983665104.dkr.ecr.us-east-1.amazonaws.com/babylonjs-documentation:latest
+      - echo Writing Image Definition File..
+artifacts:
+  files: imagedefinitions.json
+       
