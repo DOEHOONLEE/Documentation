@@ -4,6 +4,8 @@ ENV TZ Asia/Seoul
 
 RUN echo "${TZ}"
 
+RUN node -v
+
 # Setting working directory. All the path will be relative to WORKDIR
 
 WORKDIR /usr/src/app
