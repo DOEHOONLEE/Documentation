@@ -1,4 +1,4 @@
-FROM 509983665104.dkr.ecr.us-east-1.amazonaws.com/babylonjs-documentation:12.22.7-alpine
+FROM 509983665104.dkr.ecr.us-east-1.amazonaws.com/babylonjs-documentation:16.0.0-alpine
 
 ENV TZ Asia/Seoul
 
@@ -24,7 +24,7 @@ COPY . .
 
 RUN yarn build
 
-EXPOSE 80
+EXPOSE 3000
 
 # Running the app
 
