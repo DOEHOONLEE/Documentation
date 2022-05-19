@@ -12,6 +12,8 @@ WORKDIR /usr/src/app
 
 RUN rm -rf node_modules
 
+RUN npm update
+
 COPY package.json ./
 
 COPY yarn.lock ./
