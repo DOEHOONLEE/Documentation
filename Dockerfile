@@ -10,11 +10,9 @@ RUN node -v
 
 WORKDIR /usr/src/app
 
+RUN rm -rf node_modules
+
 # Installing dependencies
-
-COPY package*.json ./
-
-COPY yarn.lock ./
 
 RUN yarn install
 
