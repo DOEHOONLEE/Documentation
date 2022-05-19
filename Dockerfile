@@ -34,4 +34,5 @@ EXPOSE 3000
 
 # Running the app
 
-CMD [ "yarn", "start" ]
+CMD ["/bin/sh", "-c", "npm start"]
+
